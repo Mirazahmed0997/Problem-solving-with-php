@@ -36,4 +36,12 @@ for($x=1; $x<=10; $x++)
             else echo $x." : ". "Number is odd <br>";
     }
 
+
+    $cars = array("Volvo", "BMW", "Toyota");
+
+    for($j=0;$j < count($cars) ;$j++)
+        {
+            echo ($j + 1)." : ". $cars[$j]."<br>"; 
+        }
+
 ?>
