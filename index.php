@@ -33,34 +33,6 @@ for ($x = 1; $x <= 10; $x++) {
 }
 
 
-$cars = array("Volvo", "BMW", "Toyota");
-
-for ($j = 0; $j < count($cars); $j++) {
-    echo ($j + 1) . " : " . $cars[$j] . "<br>";
-}
-
-
-
-$employees = ["miraz", "shahed", "Alif"];
-foreach ($employees as $employee) {
-    echo $employee . "<br>";
-}
-
-array_push($employees, "ikbal", "Hossain");
-
-echo "After added New Value " . "<br>";
-foreach ($employees as $employee) {
-    echo $employee . "<br>";
-}
-
-
-$merged_Array= array_merge($cars, $employees);
-
-echo "After merger arrays " . "<br>";
-foreach ($merged_Array as $result) {
-    echo $result . "<br>";
-}
-
-
-
 ?>
+
+<a href="array.php">Next</a>
