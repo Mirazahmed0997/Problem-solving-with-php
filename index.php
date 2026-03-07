@@ -44,4 +44,12 @@ for($x=1; $x<=10; $x++)
             echo ($j + 1)." : ". $cars[$j]."<br>"; 
         }
 
+
+
+    $employees= ["miraz","shahed","Alif"];
+    foreach($employees as $employee)
+        {
+            echo $employee. "<br>";
+        }
+
 ?>
