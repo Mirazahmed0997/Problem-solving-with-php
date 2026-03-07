@@ -53,4 +53,14 @@ foreach ($employees as $employee) {
     echo $employee . "<br>";
 }
 
+
+$merged_Array= array_merge($cars, $employees);
+
+echo "After merger arrays " . "<br>";
+foreach ($merged_Array as $result) {
+    echo $result . "<br>";
+}
+
+
+
 ?>
