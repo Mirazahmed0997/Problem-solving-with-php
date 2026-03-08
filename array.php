@@ -87,6 +87,38 @@ for ($i = 0; $i < count($vahicles); $i++) {
 
 }
 
+echo "<h3>using array_column fuction</h3>";
+
+$a = array(
+  array(
+    'id' => 5698,
+    'first_name' => 'Peter',
+    'last_name' => 'Griffin',
+  ),
+  array(
+    'id' => 4767,
+    'first_name' => 'Ben',
+    'last_name' => 'Smith',
+  ),
+  array(
+    'id' => 3809,
+    'first_name' => 'Joe',
+    'last_name' => 'Doe',
+  )
+);
+
+$last_names = array_column($a, 'last_name');
+$first_names = array_column($a, 'first_name');
+
+$full_names= array_combine($first_names, $last_names);
+
+print_r($full_names);
+echo "<br>";
+
+
+// foreach($full_names as $full_name){
+//     echo $full_name ."<br>";
+// }
 
 
 ?>
